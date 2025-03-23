@@ -5,7 +5,7 @@ using TMPro;
 
 public class Box3 : MonoBehaviour
 {
-    public float speed = 1.0f;
+    private float speed = 0.6f;
     public bool correctOption;
     [SerializeField] public TMP_Text textComponent3;
     private int boxIndex;
