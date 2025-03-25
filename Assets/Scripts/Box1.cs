@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class Box1 : MonoBehaviour
 {
     private float speed = 0.6f;
@@ -23,7 +23,6 @@ public class Box1 : MonoBehaviour
         }
     }
 
-    // Change to public to allow access from other scripts
     public void ResetPositionBox1()
     {
         transform.position = new Vector3(-6.043173f, -2.28f, 95.7f);
@@ -43,8 +42,9 @@ public class Box1 : MonoBehaviour
             }
             else
             {
+                SceneManager.LoadSceneAsync(0);
                 Debug.Log("Wrong Answer! Game reset.");
-                questionScript.ResetGame();
+                // questionScript.ResetGame();
             }
             return 1;
         }

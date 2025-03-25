@@ -336,7 +336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb9bedab4e36cb1c6964a303fa4ff54d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
   textComponent1: {fileID: 193214117}
 --- !u!1001 &120996275
 PrefabInstance:
@@ -422,7 +421,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 714a098770944cbc496f43db5519d466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
   correctOption: 0
   textComponent3: {fileID: 1192652091}
 --- !u!1 &154384825
@@ -602,7 +600,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eab1cd846eeea0bdc8d012167f7f7647, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
   correctOption: 0
   textComponent2: {fileID: 1165090287}
 --- !u!114 &193214117 stripped
@@ -3464,7 +3461,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1292448271507377, guid: de4c60ec585edd91da320405bab636c6, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4142394353313661599, guid: de4c60ec585edd91da320405bab636c6, type: 3}
       insertIndex: -1

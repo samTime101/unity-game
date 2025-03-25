@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Box2 : MonoBehaviour
 {
@@ -24,7 +25,6 @@ public class Box2 : MonoBehaviour
         }
     }
 
-    // Change to public to allow access from other scripts
     public void ResetPositionBox2()
     {
         transform.position = new Vector3(-0.3264122f, -2.28f, 95.7f);
@@ -44,6 +44,7 @@ public class Box2 : MonoBehaviour
             }
             else
             {
+                SceneManager.LoadSceneAsync(0);
                 Debug.Log("Wrong Answer! Game reset.");
                 questionScript.ResetGame();
             }

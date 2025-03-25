@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Box3 : MonoBehaviour
 {
@@ -46,8 +47,9 @@ public class Box3 : MonoBehaviour
             }
             else
             {
+                SceneManager.LoadSceneAsync(0);
                 Debug.Log("Wrong Answer! Game reset.");
-                questionScript.ResetGame();
+                // questionScript.ResetGame();
             }
             return 1;
         }
