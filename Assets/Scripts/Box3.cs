@@ -47,7 +47,7 @@ public class Box3 : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadSceneAsync(0);
+                SceneManager.LoadSceneAsync(3);
                 Debug.Log("Wrong Answer! Game reset.");
                 // questionScript.ResetGame();
             }

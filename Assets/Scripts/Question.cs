@@ -67,6 +67,8 @@ public class Question : MonoBehaviour
         }
         else
         {
+        PlayerPrefs.SetInt("FinalScore", score);  
+        PlayerPrefs.Save(); 
             score = 0;  
         }
         

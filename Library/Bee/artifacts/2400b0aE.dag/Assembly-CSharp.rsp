@@ -354,6 +354,7 @@
 "Assets/Scripts/Box2.cs"
 "Assets/Scripts/Box3.cs"
 "Assets/Scripts/Credits.cs"
+"Assets/Scripts/GameOver.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Question.cs"
 "Assets/Scripts/ToCredits.cs"
