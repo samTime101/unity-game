@@ -16,8 +16,14 @@ public class Question : MonoBehaviour
     
     private int correctAnswerIndex;
     private int score = 0;
+    private OperationType currentOperation;
+
+    private enum OperationType { Addition, Subtraction, Multiplication }
+
     void Start()
     {
+        int operationIndex = PlayerPrefs.GetInt("SelectedOperation", 1); 
+        currentOperation = (OperationType)operationIndex;
         GenerateNewQuestion();
     }
 
@@ -25,12 +31,28 @@ public class Question : MonoBehaviour
     {
         int num1 = UnityEngine.Random.Range(1, 11);
         int num2 = UnityEngine.Random.Range(1, 11);
-        int correctAnswer = num1 + num2;
-        
-        questionText.text = "What is " + num1 + " + " + num2 + "?";
+        int correctAnswer = 0;
+        string operationSymbol = "";
 
-        List<int> options = new List<int>();
-        options.Add(correctAnswer);
+        switch (currentOperation)
+        {
+            case OperationType.Addition:
+                correctAnswer = num1 + num2;
+                operationSymbol = " + ";
+                break;
+            case OperationType.Subtraction:
+                correctAnswer = num1 - num2;
+                operationSymbol = " - ";
+                break;
+            case OperationType.Multiplication:
+                correctAnswer = num1 * num2;
+                operationSymbol = " × ";
+                break;
+        }
+
+        questionText.text = "What is " + num1 + operationSymbol + num2 + "?";
+
+        List<int> options = new List<int> { correctAnswer };
 
         while (options.Count < 3)
         {
