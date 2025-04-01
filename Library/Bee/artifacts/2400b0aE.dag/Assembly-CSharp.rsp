@@ -356,6 +356,7 @@
 "Assets/Scripts/Credits.cs"
 "Assets/Scripts/GameOver.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/MusicManager.cs"
 "Assets/Scripts/Question.cs"
 "Assets/Scripts/ToCredits.cs"
 "Assets/Scripts/car.cs"
