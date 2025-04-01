@@ -11,9 +11,14 @@ public class Box3 : MonoBehaviour
     [SerializeField] public TMP_Text textComponent3;
     private int boxIndex;
 
+    private AudioSource audioSource;
+    public AudioClip collisionSound;
     public void SetBoxIndex(int index)
     {
         boxIndex = index;
+    }
+    void Start(){
+         audioSource = GetComponent<AudioSource>();
     }
 
     void moveBox(){
@@ -42,6 +47,10 @@ public class Box3 : MonoBehaviour
             FindObjectOfType<Question>().UpdateScore(isCorrect); 
             if (isCorrect)
             {
+            if (audioSource != null && collisionSound != null)
+            {
+                audioSource.PlayOneShot(collisionSound); 
+            }
                 Debug.Log("Correct Answer! Box number " + gameObject.name);
                 questionScript.GenerateNewQuestion();
             }

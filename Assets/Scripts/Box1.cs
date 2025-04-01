@@ -3,15 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+
 public class Box1 : MonoBehaviour
 {
     private float speed = 0.6f;
     [SerializeField] public TMP_Text textComponent1;
     private int boxIndex;
 
+    private AudioSource audioSource;
+    public AudioClip collisionSound;
+
     public void SetBoxIndex(int index)
     {
         boxIndex = index;
+    }
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
     }
 
     void moveBox() {
@@ -32,13 +41,20 @@ public class Box1 : MonoBehaviour
     {
         if (other.gameObject.tag == "Car")
         {
+
+
             Question questionScript = FindObjectOfType<Question>();
             bool isCorrect = questionScript.CheckAnswer(boxIndex);
             FindObjectOfType<Question>().UpdateScore(isCorrect); 
             if (isCorrect)
             {
+                if (audioSource != null && collisionSound != null)
+            {
+                audioSource.PlayOneShot(collisionSound); 
+            }
                 Debug.Log("Correct Answer! Box number " + gameObject.name);
                 questionScript.GenerateNewQuestion();
+
             }
             else
             {
