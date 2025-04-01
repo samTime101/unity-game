@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class Question : MonoBehaviour
 {
@@ -19,80 +20,47 @@ public class Question : MonoBehaviour
     {
         GenerateNewQuestion();
     }
-public void GenerateNewQuestion()
-{
-    int num1 = Random.Range(1, 11);
-    int num2 = Random.Range(1, 11);
-    int correctAnswer = num1 + num2;
-    
-    questionText.text = "What is " + num1 + " + " + num2 + "?";
 
-    List<int> options = new List<int>();
-    options.Add(correctAnswer);
-
-    while (options.Count < 3)
+    public void GenerateNewQuestion()
     {
-        int newOption = Random.Range(1, 21);
-        if (!options.Contains(newOption)) 
-        {
-            options.Add(newOption);
-        }
-    }
-
-    for (int i = 0; i < options.Count; i++)
-    {
-        int temp = options[i];
-        int randomIndex = Random.Range(i, options.Count);
-        options[i] = options[randomIndex];
-        options[randomIndex] = temp;
-    }
-
-    box1.GetComponent<Box1>().textComponent1.text = options[0].ToString();
-    box2.GetComponent<Box2>().textComponent2.text = options[1].ToString();
-    box3.GetComponent<Box3>().textComponent3.text = options[2].ToString();
-
-    if (box1.GetComponent<Box1>().textComponent1.text == correctAnswer.ToString()) correctAnswerIndex = 0;
-    else if (box2.GetComponent<Box2>().textComponent2.text == correctAnswer.ToString()) correctAnswerIndex = 1;
-    else correctAnswerIndex = 2;
-
-    box1.GetComponent<Box1>().SetBoxIndex(0);
-    box2.GetComponent<Box2>().SetBoxIndex(1);
-    box3.GetComponent<Box3>().SetBoxIndex(2);
-}
-
-    // public void GenerateNewQuestion()
-    // {
-    //     int num1 = Random.Range(1, 11);
-    //     int num2 = Random.Range(1, 11);
-    //     int correctAnswer = num1 + num2;
+        int num1 = UnityEngine.Random.Range(1, 11);
+        int num2 = UnityEngine.Random.Range(1, 11);
+        int correctAnswer = num1 + num2;
         
-    //     questionText.text = "What is " + num1 + " + " + num2 + "?";
+        questionText.text = "What is " + num1 + " + " + num2 + "?";
 
-    //     List<int> options = new List<int>();
-    //     options.Add(correctAnswer);
-    //     options.Add(Random.Range(1, 21));
-    //     options.Add(Random.Range(1, 21));
+        List<int> options = new List<int>();
+        options.Add(correctAnswer);
 
-    //     for (int i = 0; i < options.Count; i++)
-    //     {
-    //         int temp = options[i];
-    //         int randomIndex = Random.Range(i, options.Count);
-    //         options[i] = options[randomIndex];
-    //         options[randomIndex] = temp;
-    //     }
+        while (options.Count < 3)
+        {
+            int newOption = UnityEngine.Random.Range(1, 21);
+            if (!options.Contains(newOption)) 
+            {
+                options.Add(newOption);
+            }
+        }
 
-    //     box1.GetComponent<Box1>().textComponent1.text = options[0].ToString();
-    //     box2.GetComponent<Box2>().textComponent2.text = options[1].ToString();
-    //     box3.GetComponent<Box3>().textComponent3.text = options[2].ToString();
+        for (int i = 0; i < options.Count; i++)
+        {
+            int temp = options[i];
+            int randomIndex = UnityEngine.Random.Range(i, options.Count);
+            options[i] = options[randomIndex];
+            options[randomIndex] = temp;
+        }
 
-    //     if (box1.GetComponent<Box1>().textComponent1.text == correctAnswer.ToString()) correctAnswerIndex = 0;
-    //     else if (box2.GetComponent<Box2>().textComponent2.text == correctAnswer.ToString()) correctAnswerIndex = 1;
-    //     else correctAnswerIndex = 2;
+        box1.GetComponent<Box1>().textComponent1.text = options[0].ToString();
+        box2.GetComponent<Box2>().textComponent2.text = options[1].ToString();
+        box3.GetComponent<Box3>().textComponent3.text = options[2].ToString();
 
-    //     box1.GetComponent<Box1>().SetBoxIndex(0);
-    //     box2.GetComponent<Box2>().SetBoxIndex(1);
-    //     box3.GetComponent<Box3>().SetBoxIndex(2);
-    // }
+        if (box1.GetComponent<Box1>().textComponent1.text == correctAnswer.ToString()) correctAnswerIndex = 0;
+        else if (box2.GetComponent<Box2>().textComponent2.text == correctAnswer.ToString()) correctAnswerIndex = 1;
+        else correctAnswerIndex = 2;
+
+        box1.GetComponent<Box1>().SetBoxIndex(0);
+        box2.GetComponent<Box2>().SetBoxIndex(1);
+        box3.GetComponent<Box3>().SetBoxIndex(2);
+    }
 
     public bool CheckAnswer(int boxIndex)
     {
@@ -107,8 +75,8 @@ public void GenerateNewQuestion()
         }
         else
         {
-        PlayerPrefs.SetInt("FinalScore", score);  
-        PlayerPrefs.Save(); 
+            PlayerPrefs.SetInt("FinalScore", score);  
+            PlayerPrefs.Save(); 
             score = 0;  
         }
         
