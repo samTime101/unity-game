@@ -1,116 +1,201 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1743505614755400, "dur":3168, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1743505614758586, "dur":52, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1743505614758674, "dur":362, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1743505614762739, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1743505614764874, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
-,{ "pid":12345, "tid":0, "ts":1743505614764934, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
-,{ "pid":12345, "tid":0, "ts":1743505614764996, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
-,{ "pid":12345, "tid":0, "ts":1743505614759064, "dur":6113, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1743505614765184, "dur":351790, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1743505615117111, "dur":772, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1743505614758825, "dur":6372, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1743505614765201, "dur":1392, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1743505614766611, "dur":630, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1743505614767408, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1743505614767524, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1743505614767657, "dur":294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1743505614767952, "dur":457, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1743505614768411, "dur":615, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1743505614769027, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1743505614769094, "dur":415, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1743505614767255, "dur":2335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1743505614770230, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1743505614770445, "dur":345084, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1743505615116410, "dur":425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1743505614758866, "dur":6343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1743505614765213, "dur":482, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1743505614765696, "dur":361, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1743505614766057, "dur":542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1743505614766705, "dur":91, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1743505614766967, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1743505614767539, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1743505614776891, "dur":128, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1743505614771622, "dur":5418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1743505614777095, "dur":72, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1743505614777207, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":2, "ts":1743505614779428, "dur":58415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1743505614837867, "dur":9525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1743505614847437, "dur":856, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1743505614849126, "dur":267784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1743505614758883, "dur":6337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1743505614765225, "dur":723, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1743505614765949, "dur":669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1743505614766704, "dur":76, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1743505614766809, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1743505614766944, "dur":111, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1743505614770335, "dur":6627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level4.resS" }}
-,{ "pid":12345, "tid":3, "ts":1743505614777119, "dur":487, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1743505614777638, "dur":11556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":3, "ts":1743505614789259, "dur":493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level2" }}
-,{ "pid":12345, "tid":3, "ts":1743505614789817, "dur":20376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":3, "ts":1743505614810239, "dur":68490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1743505614878742, "dur":238144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1743505614758909, "dur":6323, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1743505614765237, "dur":547, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1743505614765785, "dur":163, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1743505614765950, "dur":651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1743505614766648, "dur":78, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1743505614766754, "dur":86, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1743505614766861, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1743505614767281, "dur":3646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/resources.resource" }}
-,{ "pid":12345, "tid":4, "ts":1743505614776916, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1743505614770972, "dur":6020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1743505614777031, "dur":111, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1743505614777186, "dur":12021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1743505614789271, "dur":66360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1743505614855640, "dur":261273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1743505614759003, "dur":6261, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1743505614765267, "dur":685, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1743505614765952, "dur":659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1743505614766687, "dur":127, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1743505614766892, "dur":82, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1743505614767012, "dur":75, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1743505614795959, "dur":65, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1743505614796033, "dur":21583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level3.resS" }}
-,{ "pid":12345, "tid":5, "ts":1743505614817680, "dur":49266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1743505614866957, "dur":249943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1743505614758996, "dur":6251, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1743505614765252, "dur":605, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1743505614765858, "dur":747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1743505614766655, "dur":110, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1743505614766791, "dur":74, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1743505614766933, "dur":103, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1743505614767934, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/resources.assets" }}
-,{ "pid":12345, "tid":6, "ts":1743505614770273, "dur":367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1743505614770680, "dur":60173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1743505614830980, "dur":2059, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1743505614833144, "dur":9988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1743505614843295, "dur":7439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/Resources/UnityPlayer.png" }}
-,{ "pid":12345, "tid":6, "ts":1743505614850739, "dur":266208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1743505614759073, "dur":6203, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1743505614765281, "dur":664, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1743505614765946, "dur":651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1743505614766603, "dur":750, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1743505614767410, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level3" }}
-,{ "pid":12345, "tid":7, "ts":1743505614768095, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level2.resS" }}
-,{ "pid":12345, "tid":7, "ts":1743505614768866, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level1.resS" }}
-,{ "pid":12345, "tid":7, "ts":1743505614769583, "dur":403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level1" }}
-,{ "pid":12345, "tid":7, "ts":1743505614770020, "dur":6917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level0.resS" }}
-,{ "pid":12345, "tid":7, "ts":1743505614777005, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1743505614777109, "dur":227, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1743505614777387, "dur":70028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1743505614847578, "dur":810, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1743505614848570, "dur":1205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1743505614849784, "dur":267226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1743505614759116, "dur":6170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1743505614765287, "dur":508, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1743505614765796, "dur":817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1743505614766655, "dur":54, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1743505614766753, "dur":152, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1743505614766924, "dur":151, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1743505614779339, "dur":16672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level4" }}
-,{ "pid":12345, "tid":8, "ts":1743505614796075, "dur":70779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":8, "ts":1743505614866864, "dur":250027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1743505615120325, "dur":205, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1743746710280769, "dur":53, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743746710280899, "dur":3061, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743746710283985, "dur":73, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743746710284110, "dur":482, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743746710284651, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":0, "ts":1743746710284776, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1743746710284934, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1743746710284996, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1743746710285066, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1743746710285267, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/level2" }}
+,{ "pid":12345, "tid":0, "ts":1743746710285328, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/level2.resS" }}
+,{ "pid":12345, "tid":0, "ts":1743746710285388, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/level3" }}
+,{ "pid":12345, "tid":0, "ts":1743746710285454, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/level3.resS" }}
+,{ "pid":12345, "tid":0, "ts":1743746710285517, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/level4" }}
+,{ "pid":12345, "tid":0, "ts":1743746710285576, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/level4.resS" }}
+,{ "pid":12345, "tid":0, "ts":1743746710285641, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/level5" }}
+,{ "pid":12345, "tid":0, "ts":1743746710285906, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/resources.resource" }}
+,{ "pid":12345, "tid":0, "ts":1743746710285967, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1743746710286047, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1743746710286119, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":0, "ts":1743746710286187, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":0, "ts":1743746710286255, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1743746710286325, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":0, "ts":1743746710286394, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1743746710286776, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1743746710286837, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_16d3.info" }}
+,{ "pid":12345, "tid":0, "ts":1743746710286974, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710287142, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710287215, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710287286, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710287353, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710287978, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710288164, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710288236, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710288308, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710288377, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710288919, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710288977, "dur":88, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710289192, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710289262, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710289333, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710289403, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710289640, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710289955, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710290185, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710290274, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710290350, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710291235, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710291318, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710291393, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710291465, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710291715, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710291975, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710292182, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710292252, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":0, "ts":1743746710292323, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/UnityPlayer.so" }}
+,{ "pid":12345, "tid":0, "ts":1743746710292425, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush.x86_64" }}
+,{ "pid":12345, "tid":0, "ts":1743746710292493, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":0, "ts":1743746710292551, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":0, "ts":1743746710292626, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1743746710292885, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1743746710292941, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1743746710292997, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1743746710293143, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1743746710293260, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1743746710293506, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":0, "ts":1743746710293602, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":0, "ts":1743746710293689, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":0, "ts":1743746710293937, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1743746710294032, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1743746710294112, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":0, "ts":1743746710284631, "dur":9550, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743746710294198, "dur":2087392, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743746712381612, "dur":159, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743746712381779, "dur":126, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743746712382074, "dur":1400, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1743746710284280, "dur":9938, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1743746710294226, "dur":1817, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1743746710296074, "dur":88, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_16d3.info" }}
+,{ "pid":12345, "tid":1, "ts":1743746710296173, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/Linux64/Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1743746710296428, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743746710296553, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743746710296731, "dur":406, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743746710297139, "dur":499, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743746710297640, "dur":908, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743746710298550, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743746710298629, "dur":933, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743746710296171, "dur":3490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1743746710300545, "dur":94, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1743746710300650, "dur":51, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1743746710300842, "dur":509965, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1743746710812995, "dur":267471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1743746711080522, "dur":772806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1743746711853332, "dur":528387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743746710284344, "dur":9898, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743746710294249, "dur":877, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743746710295127, "dur":955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743746710296085, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743746710296183, "dur":101, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743746710296389, "dur":124, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743746710296534, "dur":87, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743746710296639, "dur":176, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743746710296832, "dur":227, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743746710681186, "dur":241146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1743746712380357, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743746710922473, "dur":1457984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1743746712380474, "dur":1073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743746710284383, "dur":9887, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743746710294285, "dur":626, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743746710294913, "dur":284, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743746710295198, "dur":881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743746710296129, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743746710296187, "dur":67, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743746710296276, "dur":190, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743746710296481, "dur":167, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743746710296664, "dur":177, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743746710298838, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1743746710299955, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1743746710300797, "dur":151758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1743746710452597, "dur":1080574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1743746711533216, "dur":847663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1743746712380894, "dur":701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743746710284455, "dur":9881, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743746710294344, "dur":784, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743746710295130, "dur":919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743746710296125, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743746710296241, "dur":69, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743746710296352, "dur":171, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743746710296611, "dur":177, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743746710296802, "dur":151, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1743746710300830, "dur":1307, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743746710302147, "dur":178595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1743746710480770, "dur":301946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1743746710782773, "dur":252178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1743746711035047, "dur":422085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1743746711457217, "dur":396076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1743746711853297, "dur":528255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743746710284491, "dur":9867, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743746710294687, "dur":586, "ph":"X", "name": "File",  "args": { "detail":"/home/samip/Week9MathRunner/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743746710294364, "dur":1254, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743746710295619, "dur":448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743746710296121, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743746710296240, "dur":253, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743746710296508, "dur":165, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743746710297236, "dur":155252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1743746710452572, "dur":246228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1743746710698850, "dur":834345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1743746711533250, "dur":85, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1743746711533587, "dur":848208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743746710284498, "dur":9880, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743746710294383, "dur":567, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743746710294951, "dur":206, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743746710295157, "dur":904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743746710296138, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1743746710296302, "dur":113, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743746710296433, "dur":107, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743746710296556, "dur":174, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743746710298195, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level5" }}
+,{ "pid":12345, "tid":6, "ts":1743746710299832, "dur":427, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743746710298950, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1743746710300373, "dur":491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1743746710300914, "dur":799005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1743746711099979, "dur":1281468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1743746710284566, "dur":9833, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743746710294408, "dur":688, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743746710295098, "dur":1034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743746710296142, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/samip/Unity/Hub/Editor/2022.3.59f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1743746710296134, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1743746710296245, "dur":120, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743746710296434, "dur":269, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743746710297497, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level5.resS" }}
+,{ "pid":12345, "tid":7, "ts":1743746710298746, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1743746710299524, "dur":2446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1743746710302027, "dur":230, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743746710302266, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":7, "ts":1743746710302801, "dur":1060609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1743746711533130, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743746711363465, "dur":169754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1743746711533326, "dur":184, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1743746711953596, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743746711533544, "dur":420151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":7, "ts":1743746711953712, "dur":427948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743746710284665, "dur":9817, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743746710294486, "dur":807, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743746710295294, "dur":778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743746710296110, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743746710296257, "dur":79, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743746710296354, "dur":91, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743746710296494, "dur":76, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743746710296611, "dur":146, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743746710296775, "dur":102, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/samip/Documents/Mathrush_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743746710299740, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1743746710300904, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1743746710301391, "dur":459668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1743746710761114, "dur":253920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/level4.resS" }}
+,{ "pid":12345, "tid":8, "ts":1743746712380371, "dur":92, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743746711015099, "dur":1365403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/samip/Documents/Mathrush_Data/resources.resource" }}
+,{ "pid":12345, "tid":8, "ts":1743746712380519, "dur":1117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743746712797163, "dur":529, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
